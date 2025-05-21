@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Detailed blog post about web development, programming, and technology">
+    <meta name="keywords" content="web development, programming, tech blog">
+    <title>Blog Post | My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">MyPortfolio</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="blog-post-full" id="blog-post-content-area">
+            <div class="post-header">
+                <div class="post-meta">
+                    <span class="post-date"></span>
+                    <span class="post-category"></span>
+                </div>
+                <h1 class="post-title"></h1>
+                <div class="post-author">
+                    <img src="images/author-avatar.jpg" alt="Author" class="author-avatar">
+                    <div class="author-info">
+                        <span class="author-name">Your Name</span>
+                        <span class="author-title">Web Developer</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-content">
+                <!-- Full blog post content will be injected here -->
+                <p class="loading-message">Loading post...</p>
+            </div>
+
+            <div class="post-footer">
+                <div class="post-tags"></div>
+                <div class="share-buttons">
+                    <button class="share-btn"><i class="fab fa-twitter"></i> Share on Twitter</button>
+                    <button class="share-btn"><i class="fab fa-linkedin"></i> Share on LinkedIn</button>
+                    <button class="share-btn"><i class="fab fa-facebook"></i> Share on Facebook</button>
+                </div>
+            </div>
+
+            <section class="related-posts">
+                <h2>Related Posts</h2>
+                <div class="related-posts-grid" id="related-posts-container">
+                    <!-- Related posts will be injected here -->
+                </div>
+            </section>
+
+            <section class="comments-section">
+                <h2>Comments</h2>
+                <div class="comments-container" id="comments-container">
+                    <!-- Comments will be injected here -->
+                </div>
+                <form class="comment-form">
+                    <textarea placeholder="Join the discussion..." required></textarea>
+                    <button type="submit" class="btn primary">Post Comment</button>
+                </form>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2024 Your Name. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Use</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/post.js" defer></script>
+</body>
+</html>

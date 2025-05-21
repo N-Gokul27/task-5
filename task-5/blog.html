@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore insights, tutorials, and thoughts on web development, programming, and technology">
+    <meta name="keywords" content="web development blog, programming tutorials, tech insights">
+    <title>My Blog | Web Development Insights</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">MyPortfolio</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="blog-header">
+            <h1>Web Development Blog</h1>
+            <p class="blog-description">Sharing knowledge, experiences, and insights about web development and technology</p>
+            <div class="blog-categories">
+                <button class="category-btn active">All Posts</button>
+                <button class="category-btn">Tutorials</button>
+                <button class="category-btn">Tech News</button>
+                <button class="category-btn">Best Practices</button>
+            </div>
+        </section>
+
+        <section id="blog-list">
+            <div class="blog-list-container" id="blog-list-container">
+                <!-- Blog posts will be injected here by JavaScript -->
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to my newsletter for the latest posts and updates</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn primary">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2024 Your Name. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Use</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/blog.js" defer></script>
+</body>
+</html>
